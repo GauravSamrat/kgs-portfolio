@@ -15,6 +15,17 @@ const CONTENT = {
 
   projects: [
     {
+      id: "invoice-follow",
+      title: "Invoice Follow", // ← project ka naam
+      subtitle: "Follow your invoices", // ← chhota description
+      description: "A tool that ...", // ← 2-3 line explanation
+      stack: ["React", "Razorpay"],
+      year: "2026",
+      status: "Live",
+      link: "https://invoicefollow-gold.vercel.app/", // ← Vercel URL
+      repo: "https://github.com/GauravSamrat/invoicefollow",
+    },
+    {
       id: "taxsimple",
       title: "TaxSimple",
       subtitle: "Income Tax Calculator",
@@ -40,7 +51,11 @@ const CONTENT = {
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] } },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] },
+  },
 };
 
 const stagger = {
